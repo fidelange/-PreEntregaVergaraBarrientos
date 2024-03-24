@@ -1,0 +1,232 @@
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body {
+    background-color:#ffffff ;
+}
+
+
+header {
+    background-color: rgb(247, 220, 67);
+}
+
+
+a { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    
+}
+
+section img {
+    width: 100px;
+}
+
+
+.login ul {
+    display: flex;
+    justify-content: end;
+
+}
+
+.formulario form input {
+    width: 550px;
+    height: 40px;
+    border-radius: 20px 0 0 20px;
+}
+
+button:hover  {
+    background-color: chartreuse; 
+    color: rgb(255, 1, 238);
+}
+
+button  {
+    background-color: aquamarine;
+    width:60px;
+    height: 40px;
+    border-radius: 0 20px 20px 0;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: goldenrod;
+
+    
+}
+
+.ofertas {
+    color: crimson;
+}
+
+h2 {
+    margin: 10px 0 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 300px;
+    margin: 0px 10px 0px 10px;
+}
+
+.container_1 {
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+}
+
+.container_2 {
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+}
+
+p a {
+    font-size: 16px;
+    color: rgb(7, 11, 209);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(167, 59, 10);
+}
+
+.footer {
+    background-color: rgb(14, 15, 95);
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+h4 {
+    font-size: 25px;
+    color: azure;
+}
+
+.footer_link ul li a {
+    color: rgb(255, 255, 255);
+}
+
+.footer_link ul li {
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 20px;
+}
+
+
+.social_link {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    
+}
+
+.social_link img {
+    margin-left: 20px;
+}
+
+
+@media (max-width: 360px) {
+
+    .formulario form input {
+        width: 180px;
+        height: 30px;
+        border-radius: 20px 0 0 20px;
+    }
+    
+    button:hover  {
+        background-color: chartreuse; 
+        color: rgb(255, 1, 238);
+    }
+    
+    button  {
+        background-color: aquamarine;
+        width:50px;
+        height: 30px;
+        border-radius: 0 20px 20px 0;
+    }
+
+    nav a {
+        font-size: 14px;
+        border:1px solid black;
+        background-color: rgb(255, 239, 13);
+    }
+    
+    h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    section img {
+        margin: 10px;
+    }
+
+    .parafo {
+        margin: 3px;
+    }
+    
+    section {
+        background-color: rgb(255, 255, 255);
+        width: 160px;
+        height: 300px;
+        margin: 0px 10px 15px 10px;
+    }
+    
+    .container_1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .container_2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .footer {
+        height: 180px;
+    }
+    
+    h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .footer_link ul li a {
+        font-size: 15px;
+    }
+    
+    .footer_link ul li {
+    margin-top: 6px;
+    }
+
+    .social_link img {
+    margin-left: 14px;
+    }     
+}
+
+
+
